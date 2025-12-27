@@ -81,13 +81,12 @@ if dados:
     st.subheader("🎯 Metas do Mês Atual")
 
     # 1. Definição de Metas
-    # (ATENÇÃO: Certifique-se de copiar o fechamento "}" deste dicionário abaixo)
     metas = {
         "Alimentação": 1500.00,
         "Transporte": 800.00,
         "Lazer": 500.00,
         "Moradia": 2500.00
-    }
+    }  # <--- ESSA CHAVE AQUI É QUE ESTAVA FALTANDO!
 
     # 2. Filtrar dados apenas do mês atual
     mes_atual = date.today().month
